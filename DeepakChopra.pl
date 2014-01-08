@@ -8,5 +8,4 @@ my @middles    = ("nurtures ",           "projects onto ",      "imparts reality
 my @qualifiers = ("abundance of ",       "the barrier of ",     "self-righteous ",     "potential ");
 my @finishes   = ("marvel.",             "choices.",            "creativity.",         "actions.");
 
-
 say map { $_->[rand @$_] } \@starts, \@middles, \@qualifiers, \@finishes;
